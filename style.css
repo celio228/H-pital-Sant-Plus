@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter-regular;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00b370;
+  padding: 10px 20px;
+  color: white;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 15px;
+        display: inline-block;
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .active a {
+    background-color: white;
+    color: #00b370;
+  }
+}
+
+main {
+  padding: 20px;
+  background-image: url(/Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 168, 120, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.doctor-card {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+}
+
+.doctor-card img {
+  width: cover;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.doctor-name {
+  position: relative;
+  left: 235px;
+  top: -33px;
+  align-items: center;
+  background-color: white;
+  color: #00b370;
+  padding: 6px;
+  padding-right: -10px;
+  padding-left: -10px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-name {
+  color: #00b370;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.welcome-text {
+  max-width: 600px;
+}
+.welcome-text button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #00b370;
+  position: relative;
+  left: 200px;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    :active {
+      color: #00b370;
+    }
+  }
+}
+
+.welcome-text h2 {
+  /* margin-bottom: 1rem; */
+  font-size: 40px;
+}
+
+.quote {
+  font-style: italic;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+}
+
+.hours {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #00b370;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.socials {
+  margin-bottom: 0.5rem;
+}
+
+.socials i {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* page contact */
+
+.main2 {
+  background-image: url(/Images/2medical-nurse-talking-with-patient-phone-about-diagnosis-health-care-physician-sitting-desk-using-computer-modern-clinic-looking-monitor.jpg);
+  background-size: contain;
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  font-size: 70px;
+  font-weight: bold;
+  height: 150px;
+  background-color: rgba(0, 168, 120, 0.85);
+}
+.situation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  color: black;
+  font-weight: bold;
+}
+.contact-page {
+  padding: 20px;
+  background-color: #00b370;
+  height: cover;
+}
+
+.contact-page h1 {
+  color: #00a99d;
+}
+
+.label-color {
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form form {
+  width: 45%;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form form button {
+  background-color: white;
+  color: #00b370;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.contact-form .map {
+  width: 45%;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 70px;
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0043b3;
+  color: white;
+}
+
+/*Partie Equipe médicale*/
+
+.main3 {
+  background-image: url(/Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
+  background-size: contain;
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.back {
+  width: 100%;
+  background-color: #00b370;
+  padding: 20px 0;
+}
+
+.old-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.items-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.items-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.img-container img:hover {
+  transform: scale(1.05);
+}
+
+.text-container h1 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  font-family: inter-regular;
+}
+
+.text-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/*Responsivité*/
+
+@media (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .doctor-name {
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    position: static;
+  }
+
+  .welcome-text {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .welcome-text button {
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact-form form,
+  .contact-form .map {
+    width: 100%;
+  }
+
+  .contact {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .situation {
+    font-size: 18px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+  }
+
+  .old-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .old-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    font-size: 30px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .main2,
+  .main3 {
+    background-size: cover;
+    height: 150px;
+  }
+
+  .welcome-text h2 {
+    font-size: 28px;
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+
+  .contact-form .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: inter-regular;
+  src: url(./Assets/fonts/inter/Inter_18pt-Regular.ttf);
+}
