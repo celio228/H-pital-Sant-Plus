@@ -41,7 +41,7 @@ header {
 
 main {
   padding: 20px;
-  background-image: url(/Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
+  background-image: url(./Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
   background-size: 100%;
   background-position: center;
   color: white;
@@ -144,7 +144,7 @@ footer {
 /* page contact */
 
 .main2 {
-  background-image: url(/Images/2medical-nurse-talking-with-patient-phone-about-diagnosis-health-care-physician-sitting-desk-using-computer-modern-clinic-looking-monitor.jpg);
+  background-image: url(./Images/2medical-nurse-talking-with-patient-phone-about-diagnosis-health-care-physician-sitting-desk-using-computer-modern-clinic-looking-monitor.jpg);
   background-size: contain;
   height: 200px;
   background-attachment: fixed;
@@ -243,7 +243,7 @@ footer {
 /*Partie Equipe médicale*/
 
 .main3 {
-  background-image: url(/Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
+  background-image: url(./Images/group-african-medical-students-posed-outdoor-against-university-door.jpg);
   background-size: contain;
   height: 200px;
   background-attachment: fixed;
